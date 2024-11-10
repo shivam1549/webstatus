@@ -123,6 +123,7 @@ const AddWebsites = () => {
                                     <div className="card">
                                         <div className="card-body">
                                             <h4 className="card-title">Create New Websites</h4>
+                                            <Link to="/" >View All Websites</Link>
 
                                             <form onSubmit={handlesubmit} className="forms-sample">
                                                 <div className="form-group">
@@ -143,6 +144,7 @@ const AddWebsites = () => {
                                         <div className="card-body">
                                             <h4 className="card-title">How We will manage</h4>
                                             <p className="card-description">   if website will go down we will mail you</p>
+                                            
 
                                         </div>
 
