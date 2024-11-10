@@ -1,0 +1,50 @@
+.web-up {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.web-down {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.notification {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  animation: slideIn 0.5s, fadeOut 0.5s 4.5s forwards;
+  z-index: 1000;
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+      opacity: 0;
+  }
+}
+.nav-link.active{
+  background: #4b49ac;
+  color: #fff !important;
+}
+.nav-link.active i{
+  color: #fff !important;
+}
